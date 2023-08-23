@@ -40,7 +40,7 @@ struct QueryPullParam {
     /// 是否保存为excel文件
     #[arg(short, long)]
     exc: bool,
-    /// 批量手机提交者pr
+    /// 批量收集提交者pr
     #[arg(short, long, value_name = "FILE")]
     inventory: Option<PathBuf>,
 }
